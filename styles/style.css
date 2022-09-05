@@ -1,41 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-* {
-  box-sizing:border-box;
-}
 
-html {
-  height:100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow: hidden
 }
 
 body {
-  height:100vh;
-  font-family: Barlow;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  background-color: black;
+  background-color: #212121;
+  font-family: 'Barlow', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
 }
 
- .card {
-  width:30vw;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:flex-end;
-  background-color: #575d90;
 
+
+.wrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
 }
 
-header {
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  justify-content:flex-end;
-
+.center{
+  background-image: url("links/me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  height: 90vh;
+  width: 25rem;
+  padding: 30px;
 }
-
-h1 {
-  font-size: 60px;
-  margin:2rem 0 1rem;
-  color: #b2ffd6;
