@@ -4,9 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
-  overflow: hidden
+
 }
+
 
 body {
   background-color: #212121;
@@ -17,6 +17,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10%;
+
+  perspective: 1000px;
 
 }
 
@@ -55,9 +57,10 @@ body {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #fff;
+  color: black;
   transform: rotateY(180deg);
+  padding: 10%;
 }
 
 
@@ -81,9 +84,7 @@ hr{
 }
 
 
-.logo{
-  width: 90%;
-}
+
 
 h1{
   font-size: 70px;
